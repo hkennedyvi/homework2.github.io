@@ -8,4 +8,4 @@ The password, ranging in length from 8-128 characters, will be displayed to the 
 
 HTML, CSS, and Javascript will all be used in the creation process.
 
-A preview screenshot for this project can be viewed at: (/Users/howardkennedy/Desktop/homework2.github.io/Generator_Screenshot.png)
+A preview screenshot for this project can be viewed at: (https://github.com/hkennedyvi/homework2.github.io/blob/master/Generator_Screenshot.png)

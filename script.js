@@ -1,28 +1,28 @@
-//generate random password
+//generate password
 function generate(){
 
-    //set passsword length/complexity
+    //set the password length
     var complexity = document.getElementById("slider").value;
 
-    //possible password values
+    //store the possible password values
     var values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()";
 
     var password = "";
 
-    //create for loop to choose password characters
+    //loop to choose password characters
 
     for(var i = 0; i <= complexity; i++){
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
     }
 
-    //add password to textbox/display area
+    //add password to the text area in browser
     document.getElementById("display").value = password;
 }
 
 //set default length display of 68
 document.getElementById("length").innerHTML = "Length: 68";
 
-//function to set length based on slider position
+//set length based on slider position
 document.getElementById("slider").oninput = function(){
 
     if(document.getElementById("slider").value > 0){
@@ -34,7 +34,7 @@ document.getElementById("slider").oninput = function(){
     }
 }
 
-//fucntion to copy password to clipboard
+//copy password to clipboard
 function copyPassword(){
 
     document.getElementById("display").select();
