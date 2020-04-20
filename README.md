@@ -1,4 +1,4 @@
-# homework2.github.io
+# Password Generator
 
 The purpose of this application is to allow a user to generate a random password. 
 
